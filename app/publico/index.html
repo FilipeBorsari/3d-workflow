@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oficina 3D</title>
+  <link rel="icon" href="icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#/inicio">
+      <img src="icone.svg" alt="" width="28" height="28">
+      <span>Oficina 3D</span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#/inicio" data-rota="inicio">Passo a passo</a>
+      <a href="#/instalacao" data-rota="instalacao">Programas <span class="ponto" id="ponto-instalacao"></span></a>
+      <a href="#/login" data-rota="login">Conta Claude <span class="ponto" id="ponto-login"></span></a>
+      <a href="#/projetos" data-rota="projetos">Projetos</a>
+    </nav>
+  </header>
+  <main id="tela" class="tela"></main>
+  <div id="ampliada" class="ampliada" hidden><img alt=""><button class="fechar" aria-label="Fechar">×</button></div>
+  <script src="/vendor/marked.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

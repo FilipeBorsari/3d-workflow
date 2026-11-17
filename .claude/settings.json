@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tools/blender.sh:*)",
+      "Bash(tools/novo_projeto.sh:*)",
+      "Bash(python3 tools/fatiar.py:*)",
+      "Bash(python3 tools/imagem_para_svg.py:*)",
+      "Bash(python3 tools/blender_ponte/cliente.py:*)",
+      "Bash(blender --version)"
+    ]
+  }
+}

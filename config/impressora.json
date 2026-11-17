@@ -1,0 +1,22 @@
+{
+  "impressora": "Bambu Lab A1 mini",
+  "volume_util_mm": { "x": 180, "y": 180, "z": 180 },
+  "margem_mesa_mm": 5,
+  "bico_mm": 0.4,
+  "presets": {
+    "maquina": "Bambu Lab A1 mini 0.4 nozzle",
+    "processo": "0.20mm Standard @BBL A1M",
+    "filamento": "Bambu PLA Basic @BBL A1M"
+  },
+  "placa": "Textured PEI Plate",
+  "projeto": {
+    "parede_minima_mm": 1.2,
+    "detalhe_minimo_mm": 0.8,
+    "folga_encaixe_mm": 0.2,
+    "folga_encaixe_solto_mm": 0.4,
+    "overhang_max_graus": 45,
+    "ponte_max_mm": 10,
+    "texto_relevo_altura_min_mm": 0.6,
+    "texto_tamanho_min_mm": 4
+  }
+}

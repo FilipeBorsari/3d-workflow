@@ -1,0 +1,29 @@
+# Gerados a cada execução do modelo.py / fatiar.py
+projetos/*/saida/preview/
+projetos/*/saida/fatiado/
+projetos/*/saida/inspecao_*/
+projetos/*/saida/*_previa.png
+**/inspecao_*/
+*.blend1
+*.blend@
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.claude/settings.local.json
+
+# Projetos reais ficam fora do repositório (vários GB). Só o modelo entra.
+projetos/*
+!projetos/_modelo/
+
+# Saída do CLI do Bambu Studio
+result.json
+
+# Oficina 3D (interface)
+app/node_modules/
+app/.atalhos/
+projetos/*/.app/
